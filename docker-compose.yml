@@ -3,6 +3,6 @@ web:
   volumes:
    - ./src/public_html:/usr/share/nginx/html
   ports:
-   - "8080:80"
+   - "8083:80"
   environment:
    - NGINX_PORT=80
