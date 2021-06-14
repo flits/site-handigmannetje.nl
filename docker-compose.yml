@@ -1,5 +1,6 @@
 web:
   image: nginx
+  restart: unless-stopped
   volumes:
    - ./src/public_html:/usr/share/nginx/html
   ports:
