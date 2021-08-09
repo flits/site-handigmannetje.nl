@@ -34,7 +34,7 @@ body {
   padding: .25rem 0;
   font-weight: 700;
   color: rgba(0, 0, 0, .5);
-  background-color: transparent;
+  background-color: FFF;
   border-bottom: .25rem solid transparent;
 }
 
